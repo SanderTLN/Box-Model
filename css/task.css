@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+.mainDiv{
+    width: 600px;
+    height: 600px;
+    background-color: skyblue;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.mainDiv > div {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border: 2px solid black;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.red1{
+    background-color: red;
+}
+
+.yellow1{
+    background-color: yellow;
+    border-radius: 50%;
+    transition-property: transform;
+    transition-duration: 3s;
+}
+
+.yellow1:hover {
+    transform: rotateY(180deg);
+}
+
+.green1{
+    background-color: green;
+}
+
+.red2{
+    background-color: red;
+    border-radius: 50%;
+    transition-property: transform;
+    transition-duration: 3s;
+}
+
+.red2:hover {
+    transform: rotateY(180deg);
+}
+
+.yellow2{
+    background-color: yellow;
+    opacity: 0;
+}
+
+.green2{
+    background-color: green;
+}
+
+.red3{
+    background-color: red;
+}
+
+.yellow3{
+    background-color: yellow;
+}
+
+.green3{
+    background-color: green;
+    border-radius: 50%;
+    transition-property: transform;
+    transition-duration: 3s;
+}
+
+.green3:hover {
+    transform: rotateY(180deg);
+}
